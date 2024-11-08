@@ -22,6 +22,8 @@ chmod 755 ./config.sh
 ./config.sh
 ```
 
+4. Reinicie o seu terminal
+
 Você está pronto para utilizar as funcionalidade!
 
 O script config.sh adiciona ao seu arquivo .bashrc 5 alias para executar as tarefas. Abaixo estes alias estão listados,
@@ -93,7 +95,7 @@ Parâmetros:
 * [OPCIONAL] periodicidade: Parâmetro opcional para configurar a periodicidade da execução da cron job.
   * Padrão: "0 12 * * *" -> será executado diariamente às 12h00.
 
-![img.png](img.png)
+![img.png](assets/img.png)
 fonte: https://cloud.google.com/scheduler/docs/configuring/cron-job-schedules?hl=pt-br
 
 Exemplo:
@@ -153,3 +155,7 @@ Alias utilizado para mostrar no terminal apenas as linhas que mostram o resutado
 ```angular2html
 getLogs
 ```
+
+Exemplo:
+
+![img_1.png](assets/img_1.png)
