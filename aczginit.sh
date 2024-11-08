@@ -3,7 +3,7 @@
 # Verifica se o número de argumentos é menor que 1
 if [ "$#" -lt 1 ]; then
     echo "Erro: Parâmetros insuficientes."
-    echo "Uso correto: aczginit <nome-da-feature>"
+    echo "Uso correto: aczginit <nomeDaFeature>"
     exit 1
 fi
 

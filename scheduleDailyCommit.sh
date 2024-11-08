@@ -2,7 +2,7 @@
 
 if [ "$#" -lt 2 ]; then
     echo "Erro: Parâmetros insuficientes."
-    echo "Uso correto: scheduleDailyCommit <diretorio-do-projeto> [mensagem-de-commit] [periodicidade]"
+    echo "Uso correto: scheduleDailyCommit <diretorio-do-projeto> --m \"[mensagem-de-commit]\" --p \"[periodicidade]\""
     exit 1
 fi
 
